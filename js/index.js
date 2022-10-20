@@ -1,6 +1,6 @@
 /*  Variables y las tres formas para declarar.
-1- var (alcance global dentre de un bloque), let (alcance limitado al bloque especifico), const (las variables const quedan fijas, no se modifican nunca mas su valor, es una constante).
-2- Ej.(Variable = "recipiente" - y en esa variable vamos a guardar un dato) 
+1- var (alcance global dentre de un bloque), let (alcance limitado al bloque especifico), const (las variables const quedan fijas, no se modifica nunca mas su valor, es una constante).
+Ej.(Variable = "recipiente" - y en esa variable vamos a guardar un dato) 
 2- datos primitivos: 
 String = "cadena de texto"
 Number = 19

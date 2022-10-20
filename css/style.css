@@ -1,0 +1,34 @@
+.flex {
+  height: 100vh;
+  width: 50%;
+}
+.container {
+  display: flex;
+}
+
+.section1 {
+  background: url("../asset/fondos-para-páginas-web.jpg");
+  flex-direction: column;
+}
+
+.nombre {
+  display: flex;
+  margin-top: 150px;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  color: rgb(243, 40, 232);
+}
+.lampara {
+  display: flex;
+  justify-content: center;
+}
+.section2 {
+  background-color: aqua;
+  flex-direction: column;
+}
+
+.camara {
+  display: flex;
+  justify-content: center;
+}
