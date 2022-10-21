@@ -1,9 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .flex {
   height: 100vh;
   width: 50%;
 }
+
 .container {
   display: flex;
+}
+
+.header {
+  display: flex;
+  height: 150px;
+  justify-content: start;
+
+  border-bottom: 0.1px solid black;
+  background: rgb(229, 255, 0);
+}
+
+.logo {
+  justify-content: left;
+  align-items: center;
+
+  margin-top: 3%;
+  margin-left: 3%;
 }
 
 .section1 {
@@ -13,7 +36,8 @@
 
 .nombre {
   display: flex;
-  margin-top: 150px;
+  margin-top: 100px;
+  align-items: center;
   justify-content: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 40px;
@@ -21,6 +45,7 @@
 }
 .lampara {
   display: flex;
+  margin-top: 50px;
   justify-content: center;
 }
 .section2 {
@@ -28,7 +53,18 @@
   flex-direction: column;
 }
 
+.nombrea {
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  color: rgb(13, 87, 237);
+}
+
 .camara {
   display: flex;
+  margin-top: 50px;
   justify-content: center;
 }
